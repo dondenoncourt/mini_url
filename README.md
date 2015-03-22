@@ -1,4 +1,4 @@
-# Implementation of a simple Rails web service that has the following behaviors:
+# Implementation of a simple Rails URL Shortener web service
 
   *   Given a long URL, it will provide a short URL that is 8 characters (URL safe base64) long
   *   Given a short URL that it generated, it will provide the corresponding long URL
