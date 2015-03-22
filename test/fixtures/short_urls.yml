@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  url: original.com
+  mini_url: short1
+
+two:
+  url: original2.net
+  mini_url: shortw
