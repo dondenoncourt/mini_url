@@ -1,5 +1,6 @@
 # Implementation of a simple Rails URL Shortener web service
 
+1. This application uses Rails 4.1.8 and was tested with Ruby 2.1.5
 1. Given a long URL, it will provide a short URL that is 8 characters (URL safe base64) long
 1. Given a short URL that this tool has generated, it will provide the corresponding long URL
 1. Short URLs are likely to be transcribed by hand, so this implementation always provides short URLs with o, b, and l rather than 0, 6, and 1. Also, should a short URL with 0, 6, or 1s be passed to the GET, those characters will be replaced with their alphabetical equivalents. In that manner, false results should not be returned.
