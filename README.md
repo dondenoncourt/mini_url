@@ -1,12 +1,8 @@
 # Implementation of a simple Rails URL Shortener web service
 
 1. Given a long URL, it will provide a short URL that is 8 characters (URL safe base64) long
-2. Given a short URL that it generated, it will provide the corresponding long URL
-3. Short URLs are likely to be transcribed by hand, so this
-implementation always provides short URLs with o, b, and l rather than
-0, 6, and 1. Also, should a short URL with 0, 6, or 1s be passed to the
-GET, those characters will be replaced with their alphabetical
-equivalents. In that manner, false results should not be returned.
+1. Given a short URL that this tool has generated, it will provide the corresponding long URL
+1. Short URLs are likely to be transcribed by hand, so this implementation always provides short URLs with o, b, and l rather than 0, 6, and 1. Also, should a short URL with 0, 6, or 1s be passed to the GET, those characters will be replaced with their alphabetical equivalents. In that manner, false results should not be returned.
 1. The generated mini url will not contain bad words (specifically "foo" and "bar", pardon my French)
 1. Mini URLs are created from the page displayed from the ROOT URL of the application
 1. update and capabilities are not available in the API 
@@ -24,7 +20,7 @@ results:
 id: 5,
 url: "smith.com",
 mini_url: "pau_gwaq.com",
-created_at: "2015-03-22T20:30:25.330Z",
+[[created_at:]] "2015-03-22T20:30:25.330Z",
 updated_at: "2015-03-22T20:30:25.330Z"
 }
 ```
