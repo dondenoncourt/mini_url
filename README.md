@@ -19,7 +19,8 @@ results:
   **   http://localhost:3000/pau_gwaq
   * By placing a format type of JSON, you will receive a JSON response:
   ** http://ocalhost:3000/pau_gwaq.json or http://ocalhost:3000/5.json
-```{
+```JSON
+{
 id: 5,
 url: "smith.com",
 mini_url: "pau_gwaq.com",
