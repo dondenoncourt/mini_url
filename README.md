@@ -9,6 +9,7 @@ GET, those characters will be replaced with their alphabetical
 equivalents. In that manner, false results should not be returned.
   *   The generated mini url will not contain bad words (specifically "foo" and "bar", pardon my French)
   *   Mini URLs are created from the page displayed from the ROOT URL of the application
+  *   update and capabilities are not available in the API 
   *   The RESTful API will take GET requests of either the id of the
 MiniUrl SQL row or the mini_url itself. So, for example, the following
 2 URLs would pull the same information:
@@ -28,6 +29,5 @@ created_at: "2015-03-22T20:30:25.330Z",
 updated_at: "2015-03-22T20:30:25.330Z"
 }
 ```
-  * update and capabilities are not available in the API 
   
 
