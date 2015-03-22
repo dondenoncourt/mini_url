@@ -12,13 +12,13 @@ equivalents. In that manner, false results should not be returned.
   *   The RESTful API will take GET requests of either the id of the
 MiniUrl SQL row or the mini_url itself. So, for example, the following
 2 URLs would pull the same information:
-  ..*   http://localhost:3000/short_urls/pau_gwaq
-  ..*   http://localhost:3000/short_urls/5
+  **   http://localhost:3000/short_urls/pau_gwaq
+  **   http://localhost:3000/short_urls/5
   * note that, for convience, the mini url in the root path will return
 results:
-  ..*   http://localhost:3000/pau_gwaq
+  **   http://localhost:3000/pau_gwaq
   * By placing a format type of JSON, you will receive a JSON response:
-  ..* http://ocalhost:3000/pau_gwaq.json or http://ocalhost:3000/5.json
+  ** http://ocalhost:3000/pau_gwaq.json or http://ocalhost:3000/5.json
 ```{
 id: 5,
 url: "smith.com",
